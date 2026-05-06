@@ -3,11 +3,11 @@ document.getElementById("name").addEventListener("input", function() {
 });
 
 document.getElementById("btn").addEventListener("click", function() {
-    document.getElementById("clickText").innerText = "Button clicked!";
+    document.getElementById("clickText").innerText = "Success!";
 });
 
 document.getElementById("box").addEventListener("mouseover", function() {
-    this.innerText = "Mouse is over me";
+    this.innerText = "This Faculty is in Zamalek, Egypt";
 });
 
 document.getElementById("box").addEventListener("mouseout", function() {
